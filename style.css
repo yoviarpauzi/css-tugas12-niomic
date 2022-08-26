@@ -1,22 +1,19 @@
 header ul {
-    background-color: #232322;
-    margin: 0;
+    background-color: #232323;
     padding: 0;
+    margin: 0;
 }
 header ul li {
     list-style: none;
     display: inline-block;
     padding: 15px;
 }
-header ul li a {
+header ul li a{
     text-decoration: none;
     color: #fff;
 }
-header ul li a:hover {
-    text-decoration: underline;
-}
 .card {
-    background-image: linear-gradient(to right, #A1C4FD,#87D4F6,#C2E9FB);
+    background-image : linear-gradient(to right, #A1C4FD,#87D4F6,#C2E9FB);
     padding: 15px;
 }
 .slider-img {
@@ -31,10 +28,10 @@ header ul li a:hover {
     text-align: justify;
     column-count: 4;
     column-rule: 2px solid #000;
-}
+}   
 .footer {
     background-color: #000;
-    color: white;
+    color: #fff;
     text-align: center;
     height: 50px;
 }
