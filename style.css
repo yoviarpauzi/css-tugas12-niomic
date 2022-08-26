@@ -1,0 +1,41 @@
+header ul {
+    background-color: #232323;
+    padding: 0;
+    margin: 0;
+}
+header ul li {
+    display: inline-block;
+    padding : 20px;
+}
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.card {
+    background-image: linear-gradient(to right, #A1C4FD,#87D4F6,#C2E9FB);
+    padding: 10px;
+    text-align: center;
+}
+.slider-img{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.image {
+    width: 200px;
+    height: 200px;
+    float : left;
+    padding: 20px;
+}
+.p-text {
+    text-align: justify;
+    column-count: 4;
+    column-rule: 2px solid #000;
+    column-gap: 30px;
+}
+.footer {
+    margin-top: 20px;
+    background-color: #000;
+    color: #fff;
+    height: 50px;
+    text-align: center;
+}
