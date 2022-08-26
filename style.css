@@ -1,41 +1,40 @@
 header ul {
-    background-color: #232323;
-    padding: 0;
+    background-color: #232322;
     margin: 0;
+    padding: 0;
 }
 header ul li {
+    list-style: none;
     display: inline-block;
-    padding : 20px;
+    padding: 15px;
 }
 header ul li a {
     text-decoration: none;
     color: #fff;
 }
+header ul li a:hover {
+    text-decoration: underline;
+}
 .card {
     background-image: linear-gradient(to right, #A1C4FD,#87D4F6,#C2E9FB);
-    padding: 10px;
-    text-align: center;
+    padding: 15px;
 }
-.slider-img{
+.slider-img {
     width: 100%;
-    padding-bottom: 20px;
 }
 .image {
     width: 200px;
-    height: 200px;
-    float : left;
-    padding: 20px;
+    float: left;
+    padding: 30px;
 }
 .p-text {
     text-align: justify;
     column-count: 4;
     column-rule: 2px solid #000;
-    column-gap: 30px;
 }
 .footer {
-    margin-top: 20px;
     background-color: #000;
-    color: #fff;
-    height: 50px;
+    color: white;
     text-align: center;
+    height: 50px;
 }
